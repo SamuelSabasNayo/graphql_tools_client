@@ -1,28 +1,21 @@
-# Getting Started with Create React App
+# graphql_tools_client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a backend project built with React.js and Apollo.
 
-## Available Scripts
+[![](https://circleci.com/gh/SamuelSabasNayo/graphql_tools_client.svg?style=shield&circle-token=ec70b1a732b384de971e0a9129eec6904ce57c46)](https://app.circleci.com/pipelines/github/SamuelSabasNayo/graphql_tools_client)
+[![Maintainability](https://api.codeclimate.com/v1/badges/222d5aab793b6aa80257/maintainability)](https://codeclimate.com/github/SamuelSabasNayo/graphql_tools_client/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/222d5aab793b6aa80257/test_coverage)](https://codeclimate.com/github/SamuelSabasNayo/graphql_tools_client/test_coverage)
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6IlNhbXVlbFNhYmFzTmF5byIsInJlcG8xIjoiZ3JhcGhxbF90b29sc19jbGllbnQiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoyNjEyOCwiaWF0IjoxNjE4Njc3MzA3fQ.J07UpmKxCWFtJBHR1f189tREyXBbjNRGRdn6LtzUCvg)](https://www.deepcode.ai/app/gh/SamuelSabasNayo/graphql_tools_client/_/dashboard?utm_content=gh%2FSamuelSabasNayo%2Fgraphql_tools_client)
 
-In the project directory, you can run:
+Clone the app
+* ```https://github.com/SamuelSabasNayo/graphql_tools_client.git```
 
-### `yarn start`
+Install all the packages
+* ```npm install ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Run the server
+*  ```npm start ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Testing
+Run Test case
+* ```npm run test```

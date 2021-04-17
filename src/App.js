@@ -1,11 +1,12 @@
-/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import BookList from './components/BookList';
 
 export class App extends Component {
   render() {
     return (
-      <div>
-        Hello Sam!
+      <div id="main">
+        <h1>Hello Sam!</h1>
+        <BookList />
       </div>
     );
   }
