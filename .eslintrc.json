@@ -9,7 +9,7 @@
   ],
   "parserOptions": {
     "ecmaFeatures": {
-        "jsx": true
+      "jsx": true
     },
     "ecmaVersion": 12,
     "sourceType": "module"
@@ -19,16 +19,18 @@
   ],
   "rules": {
     "react/jsx-filename-extension": [ 1,
-        {
-            "extensions": [ ".js", ".jsx', '.test.js" ]
-        }
+      {
+        "extensions": [ ".js", ".jsx', '.test.js" ]
+      }
     ],
     "arrow-parens": 0,
     "comma-dangle": 0,
     "import/no-named-as-default": 0,
+    "jsx-a11y/label-has-associated-control": 0,
     "no-undef": [ 1 ],
     "object-curly-newline": 0,
     "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
   }
 }
